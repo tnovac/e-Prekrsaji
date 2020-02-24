@@ -1,0 +1,170 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+	background-color: #E8E8e8;
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+	text-align: left;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+header {
+	background-color: #008fb3;
+	color:black;
+	background-repeat:no-repeat;
+  padding:0;
+	height:100px;
+	text-align:right;
+}
+
+h2{
+	font-size: 25px;
+	color: skyblue;
+    font-weight: bold;
+}
+
+header .info 
+   h1 {
+  float:left;  
+  margin: 25px;
+  padding-left: 5px;
+  font-size: 35px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+  background: rgba(0,0,0,0.4);
+  border-radius: 4px;
+  padding: 3px 12px 3px 12px;
+  border: 1px solid rgba(255,255,255,0.8);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  #5c5c5c;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+  height: 60px;
+}
+
+li {					
+   display: inline-block;
+   margin-top: 10px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+}
+
+.klasa:hover {
+  background-color: #008fb3;
+  color: white;
+  padding: 12px 14px;
+  border-bottom: 2px solid white;
+ } 
+
+footer {
+  background-color: #008fb3;
+  position: absolute;
+  bottom:0;
+  width:100%;
+  text-align: center;
+  /* padding: 40px; */
+  color: white;
+  font-size: 16px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+footer .copy {
+  padding-top: 5px;
+}
+
+td,th {
+  border: 1px solid rgba(0,0,0,0.1);
+  padding-left: 20px !important;
+}
+
+#centar {
+  font-size: 2rem;
+  /* width: 1080px; */
+  margin-top: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 950px;
+
+
+}
+
+.korisnici {
+  margin: 20px 20px;
+  padding: 20px;
+  background: rgba(0,0,0,0.02);
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.button {
+  color: white !important;
+}
+
+.form {
+  padding: 30px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.login {
+  background: rgb(0, 204, 255);
+  width: 400px;
+  height: 50px;
+  position: absolute;
+  top: 24px;
+  right: 20px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 4px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: white;
+  background: rgba(0,0,0,0.1);
+}
+
+.odjava {
+  font-size: 2rem;
+  margin: 2rem 2rem 0 2rem;
+  border-radius: 4px;
+  background: rgba(0,0,0,0.04);
+  border: 1px solid rgba(0,0,0,0.1);
+  padding: 30px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.02);
+}
+
+#popisgresaka{
+	background-color: #F78181;
+	text-decoration: underline;
+    padding-left: 20px;	
+}
