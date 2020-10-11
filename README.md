@@ -15,3 +15,6 @@ Moderator uz svoje funkcionalnosti ima i sve funkcionalnosti kao i registrirani 
 Administrator uz svoje funkcionalnosti ima i sve funkcionalnosti kao i moderator. Uz to administrator unosi, ažurira i pregledava korisnike sustava te definira i ažurira njihove tipove. Administrator definira, pregledava i ažurira kategorije (Brzina, Alkohol, …), te bira moderatora za pojedinu kategoriju između korisnika koji imaju tip moderator. Jedan moderator može upravljati sa više kategorija. Administrator vidi ukupan broj prekršaja u odabranom razdoblju, te top 20 korisnika sa najviše kazni u odabranom razdoblju.
 
 
+<b>Screenshot</b>
+
+![Screenshot_e-Prekršaji.png](https://github.com/tnovac/e-Prekrsaji/blob/master/images/Screenshot_e-Prekr%C5%A1aji.png)
